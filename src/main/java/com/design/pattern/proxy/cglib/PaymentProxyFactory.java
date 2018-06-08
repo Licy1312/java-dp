@@ -8,9 +8,10 @@ import org.springframework.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * Description: 支付代理工厂，这里使用的是spring-core内部工具类
+ * Description: 支付代理工厂，这里使用的是spring-core内部工具类，也可以使用cglib.jar
  *
- * @Author:Jinmu Date: 2018/6/8
+ * @Author:Jinmu
+ * Date: 2018/6/8
  */
 public class PaymentProxyFactory implements MethodInterceptor {
     //维护通用目标对象
@@ -20,7 +21,7 @@ public class PaymentProxyFactory implements MethodInterceptor {
     }
 
     public Object getProxyInstance() {
-        //工具类
+        //工具类（字节码增强器，可以动态对类进行扩展）
         Enhancer enhancer = new Enhancer();
         //设置代理的父类
         enhancer.setSuperclass(target.getClass());

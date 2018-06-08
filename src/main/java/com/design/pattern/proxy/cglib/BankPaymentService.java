@@ -3,7 +3,8 @@ package com.design.pattern.proxy.cglib;
 /**
  * Description:子类代理
  *
- * @Author:Jinmu Date: 2018/6/8
+ * @Author:Jinmu
+ * Date: 2018/6/8
  */
 public class BankPaymentService {
 

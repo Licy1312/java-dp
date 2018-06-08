@@ -8,7 +8,8 @@ import java.lang.reflect.Proxy;
 /**
  * Description: 测试类，构造真实的需要支付业务的P2P公司
  *
- * @Author:Jinmu Date: 2018/6/8
+ * @Author:Jinmu
+ * Date: 2018/6/8
  */
 public class P2pCompanyTest {
 

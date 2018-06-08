@@ -3,7 +3,8 @@ package com.design.pattern.proxy.cglib;
 /**
  * Description:测试类，模拟真实的需要支付业务的超市
  *
- * @Author:Jinmu Date: 2018/6/8
+ * @Author:Jinmu
+ * Date: 2018/6/8
  */
 public class SuperMarketTest {
     public static void main(String[] args) {
